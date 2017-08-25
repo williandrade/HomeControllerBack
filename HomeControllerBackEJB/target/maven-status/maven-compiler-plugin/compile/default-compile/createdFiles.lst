@@ -1,0 +1,7 @@
+me/williandrade/util/RestReponseUtil.class
+me/williandrade/util/GsonConverterUtil.class
+me/williandrade/session/UserSession.class
+me/williandrade/dto/TestDTO.class
+me/williandrade/handler/UserRequestHandler.class
+me/williandrade/strategy/AnnotationExclusionStrategy.class
+me/williandrade/dto/ResponseDTO.class
