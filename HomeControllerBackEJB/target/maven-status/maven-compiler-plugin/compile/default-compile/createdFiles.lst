@@ -1,7 +1,14 @@
+me/williandrade/entity/Device.class
 me/williandrade/util/RestReponseUtil.class
-me/williandrade/util/GsonConverterUtil.class
 me/williandrade/session/UserSession.class
+me/williandrade/util/GsonConverterUtil.class
+me/williandrade/entity/User.class
 me/williandrade/dto/TestDTO.class
 me/williandrade/handler/UserRequestHandler.class
+me/williandrade/entity/DeviceActionHistory.class
+me/williandrade/entity/DeviceType.class
 me/williandrade/strategy/AnnotationExclusionStrategy.class
+me/williandrade/entity/Family.class
+me/williandrade/entity/Section.class
 me/williandrade/dto/ResponseDTO.class
+me/williandrade/entity/Action.class
