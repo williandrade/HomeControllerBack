@@ -1,3 +1,4 @@
+/Users/william/Documents/projects/homeAutomation/HomeControllerBack/HomeControllerBackEJB/src/main/java/me/williandrade/mapper/UserMapper.java
 /Users/william/Documents/projects/homeAutomation/HomeControllerBack/HomeControllerBackEJB/src/main/java/me/williandrade/entity/DeviceType.java
 /Users/william/Documents/projects/homeAutomation/HomeControllerBack/HomeControllerBackEJB/src/main/java/me/williandrade/entity/Family.java
 /Users/william/Documents/projects/homeAutomation/HomeControllerBack/HomeControllerBackEJB/src/main/java/me/williandrade/entity/DeviceActionHistory.java
@@ -6,9 +7,12 @@
 /Users/william/Documents/projects/homeAutomation/HomeControllerBack/HomeControllerBackEJB/src/main/java/me/williandrade/strategy/AnnotationExclusionStrategy.java
 /Users/william/Documents/projects/homeAutomation/HomeControllerBack/HomeControllerBackEJB/src/main/java/me/williandrade/entity/Action.java
 /Users/william/Documents/projects/homeAutomation/HomeControllerBack/HomeControllerBackEJB/src/main/java/me/williandrade/entity/User.java
+/Users/william/Documents/projects/homeAutomation/HomeControllerBack/HomeControllerBackEJB/src/main/java/me/williandrade/dao/GenericDAO.java
 /Users/william/Documents/projects/homeAutomation/HomeControllerBack/HomeControllerBackEJB/src/main/java/me/williandrade/entity/Section.java
+/Users/william/Documents/projects/homeAutomation/HomeControllerBack/HomeControllerBackEJB/src/main/java/me/williandrade/dao/UserDAO.java
 /Users/william/Documents/projects/homeAutomation/HomeControllerBack/HomeControllerBackEJB/src/main/java/me/williandrade/util/RestReponseUtil.java
 /Users/william/Documents/projects/homeAutomation/HomeControllerBack/HomeControllerBackEJB/src/main/java/me/williandrade/dto/TestDTO.java
+/Users/william/Documents/projects/homeAutomation/HomeControllerBack/HomeControllerBackEJB/src/main/java/me/williandrade/dto/UserDTO.java
 /Users/william/Documents/projects/homeAutomation/HomeControllerBack/HomeControllerBackEJB/src/main/java/me/williandrade/util/GsonConverterUtil.java
 /Users/william/Documents/projects/homeAutomation/HomeControllerBack/HomeControllerBackEJB/src/main/java/me/williandrade/dto/ResponseDTO.java
 /Users/william/Documents/projects/homeAutomation/HomeControllerBack/HomeControllerBackEJB/src/main/java/me/williandrade/handler/UserRequestHandler.java

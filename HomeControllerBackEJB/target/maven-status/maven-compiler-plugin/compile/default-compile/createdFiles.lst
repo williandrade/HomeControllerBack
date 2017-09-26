@@ -1,8 +1,13 @@
 me/williandrade/entity/Device.class
 me/williandrade/util/RestReponseUtil.class
 me/williandrade/session/UserSession.class
+me/williandrade/dto/UserDTO.class
+me/williandrade/dao/UserDAO.class
+me/williandrade/mapper/UserMapper.class
+me/williandrade/mapper/UserMapperImpl.class
 me/williandrade/util/GsonConverterUtil.class
 me/williandrade/entity/User.class
+me/williandrade/dao/GenericDAO.class
 me/williandrade/dto/TestDTO.class
 me/williandrade/handler/UserRequestHandler.class
 me/williandrade/entity/DeviceActionHistory.class

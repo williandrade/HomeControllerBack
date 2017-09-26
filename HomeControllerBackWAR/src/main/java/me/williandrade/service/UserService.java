@@ -3,6 +3,7 @@ package me.williandrade.service;
 import javax.ejb.EJB;
 import javax.ejb.Stateless;
 import javax.inject.Inject;
+import javax.websocket.server.PathParam;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
@@ -28,14 +29,28 @@ public class UserService {
 	private UserRequestHandler userRequestHandler;
 
 	@GET
-	@Path("/test")
-	@Produces(MediaType.APPLICATION_JSON)
-	public Response findByName() {
+	public Response findAll() {
 		ResponseDTO response = new ResponseDTO();
 
 		try {
 			response.setSuccess(true);
-			response.setPayLoad(userSession.test());
+			response.setPayLoad(userSession.findAll());
+		} catch (Exception e) {
+			response.setSuccess(false);
+			response.setMessage(e.getMessage());
+		}
+
+		return restReponseUtil.makeReponse(response);
+	}
+
+	@GET
+	@Path("/family/{id}")
+	public Response findByFamilyId(@PathParam("id") Integer id) {
+		ResponseDTO response = new ResponseDTO();
+
+		try {
+			response.setSuccess(true);
+			response.setPayLoad(userSession.findByFamilyId(id));
 		} catch (Exception e) {
 			response.setSuccess(false);
 			response.setMessage(e.getMessage());
